@@ -5,13 +5,13 @@ import org.junit.jupiter.api.Test;
 import java.util.Collections;
 import java.util.List;
 
-public class MainPageTest extends BasePageTest{
-    MainPage mainPage;
+public class BPageTest extends APageTest{
+    BPage mainPage;
     List<String> webSortedProducts;
     String namePart = "an";
     @Test
     public void sortKartByAbcTest(){
-        mainPage = new MainPage(driver);
+        mainPage = new BPage(driver);
         mainPage.clickPageSize();
         mainPage.clickSize20();
         mainPage.clickNameDropDown();
@@ -25,7 +25,7 @@ public class MainPageTest extends BasePageTest{
 
     @Test
     public void searchProductByPartOfTheWord(){
-        mainPage = new MainPage(driver);
+        mainPage = new BPage(driver);
         mainPage.enterThePartOfTheWord(namePart);
         
         List<String> names =mainPage.listOfTheProductNames();

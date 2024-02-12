@@ -6,8 +6,8 @@ import org.openqa.selenium.support.FindBy;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainPage extends BasePage{
-    public MainPage(WebDriver driver) {
+public class BPage extends APage {
+    public BPage(WebDriver driver) {
 
         super(driver);
     }

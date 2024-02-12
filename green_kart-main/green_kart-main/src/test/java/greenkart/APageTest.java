@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class BasePageTest {
+public class APageTest {
 
     protected WebDriver driver;
     String givenUrl ="https://rahulshettyacademy.com/seleniumPractise/#/offers";
