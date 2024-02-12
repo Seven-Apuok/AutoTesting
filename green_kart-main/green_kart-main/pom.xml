@@ -20,8 +20,6 @@
             <artifactId>selenium-java</artifactId>
             <version>4.17.0</version>
         </dependency>
-
-        <!--            JUnit Jupiter Aggregator-->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
